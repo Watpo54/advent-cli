@@ -1,0 +1,19 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "node -r dotenv/config create.js %npm_config_challenge%",
+    "submit": "node -r dotenv/config submit.js %npm_config_challenge%"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "jsdom": "^23.0.1",
+    "puppeteer": "^21.6.1"
+  }
+}
